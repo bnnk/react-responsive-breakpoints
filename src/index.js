@@ -1,6 +1,6 @@
-import React from 'react'
-import styles from './styles.module.css'
+import ShowIn from './ShowInComponent'
+import useAllow from './useAllow'
+import useBreakPoint from './useBreakPoint'
+import useBaseResponsive from './useBaseHook'
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+export { ShowIn, useAllow, useBreakPoint, useBaseResponsive }
